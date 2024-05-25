@@ -1,0 +1,202 @@
+body {
+    background-color: #F5F3EC;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 1fr;
+    height: auto;
+    max-width: 1400px;
+    margin: auto auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 12px;
+    font-weight: normal;
+    padding-bottom: 50px;
+}
+
+nav a {
+    color: #333;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.header {
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    color: #010103;
+    letter-spacing: -0.03;
+    transform-style: uppercase;
+    min-width: 1200px;
+    align-items: center;
+    width: 0 auto;
+    height: 0 auto;
+}
+
+.header2 {
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    color: #010103;
+    letter-spacing: -0.03;
+    transform-style: uppercase;
+    min-width: 1200px;
+    align-items: center;
+    width: 0 auto;
+    height: 0 auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+main {
+    padding-top: 150px;
+}
+
+#bruna1 {
+    width: 120px;
+    height: 76px;
+}
+
+#bruna1 img {
+    width: 100%;
+}
+
+#bigpic {
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    height: auto;
+}
+
+#bigpic img {
+    width: 100%;
+}
+
+.workpics {
+    width: 400px;
+    height: 221px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.workpics img {
+    width: 100%;
+}
+
+.about {
+    font-size: 20px;
+    padding-top: 200px;
+}
+
+.about2 {
+    width: 206px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.about img {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+.about2 img {
+    width: 70%;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+#aboutBruna {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.aboutBruna {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20;
+    align-items: center;
+    padding-left: 30px;
+}
+
+a {
+    color: #010103;
+}
+
+#project {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 150px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.project1 div {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    padding-top: 10px;
+}
+
+.project2 div {
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+    min-width: 300px;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    font-size: 20px;
+
+}
+
+footer {
+    display: flex;
+    align-content: flex-end;
+    font-size: 60px;
+    color: white;
+    text-align: start;
+    align-items: start;
+    flex-direction: column;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+footer section {
+    font-size: 60px;
+}
+
+h4 {
+    font-size: 12px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 50px;
+}

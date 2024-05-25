@@ -1,0 +1,159 @@
+body {
+    background-color: #F5F3EC;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 1fr;
+    height: auto;
+    max-width: 1400px;
+    margin: auto auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 12px;
+    font-weight: normal;
+    padding-bottom: 50px;
+}
+
+.bigpic {
+    width: 1400px;
+    height: auto;
+    padding-top: 20px;
+}
+
+.bigpic2 {
+    width: 1280px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.bigpic img {
+    width: 100%;
+}
+
+.bigpic2 img {
+    width: 100%;
+}
+
+.about {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.about section {
+    max-width: 560px;
+}
+
+.about2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    padding-right: 20px;
+
+}
+.about2 section{
+    padding-bottom: 20px;
+}
+
+.steps {
+    display: flex;
+    max-width: 1280px;
+    justify-content: flex-start;
+    padding-top: 100px;
+}
+
+.casepoint {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20;
+    align-items: self-start;
+    flex-direction: column;
+}
+
+.casepoint img {
+    width: 1400px;
+    width: 100%;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1280px;
+    margin-top: 20px;
+}
+
+.pictures img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+h3{
+    font-size: 20px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 60px;
+}
+
+.finale {
+    display: flex;
+    justify-content: center;
+
+}
+
+.finale2 {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.finale2 div {
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+    min-width: 300px;
+    padding-top: 10px;
+}
+
+.finale img {
+    width: 100%;
+}
+
+
+footer {
+    display: flex;
+    align-content: flex-end;
+    font-size: 60px;
+    color: black;
+    text-align: start;
+    align-items: start;
+    flex-direction: column;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+footer section {
+    font-size: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
